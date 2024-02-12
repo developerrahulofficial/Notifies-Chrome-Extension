@@ -11,9 +11,9 @@ chrome.webNavigation.onCompleted.addListener((details) => {
   
     for (const domain of domains) {
       if (url.includes(domain)) {
-        const TOKEN = "gkbjcoa5by6b5l99"; // Replace with your token
-        const INSTANCE_ID = "instance77710"; // Replace with your instance ID
-        const phoneNumber = "+917042775082"; // Replace with recipient's phone number
+        const TOKEN = ""; // Replace with your token
+        const INSTANCE_ID = ""; // Replace with your instance ID
+        const phoneNumber = ""; // Replace with recipient's phone number
         
         chrome.tabs.get(details.tabId, function(tab) {
           const tabTitle = tab.title;
